@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 cd src/pagedapp/\
+source virtualenv/bin/activate\
+python manage.py runserver 0.0.0.0:8000\
+\
+0.0.0.0:8000/admin/\
+http://www.andrewbrown.com/admin/login\
+\
+login: admin\
+password: g!D\
+\
+http://stackoverflow.com/questions/1225586/checking-email-with-python\
+http://stackoverflow.com/questions/373335/suggestions-for-a-cron-like-scheduler-in-python\
+http://stackoverflow.com/questions/573618/django-set-up-a-scheduled-job\
+\
+Convoluted way paging works right now:\
+* Mail sent to roughfalls@fastmail.fm\
+* Using Fastmail\'92s SMS capability to forward to my Twilio number (requires credits/$$$)\
+* Twilio sends to \cf2 \expnd0\expndtw0\kerning0
+http://andrewbrown.com/receive/\
+* The app sends a text message to whatever number(s) you have configured.\
+\
+Note: Virtualenv was transplanted from \cf0 \kerning1\expnd0\expndtw0 ~/src/django-2.7 to ~/src/pagedapp/virtualenv , and scripts under bin/ were modified to reference new paths for this virtualenv}
